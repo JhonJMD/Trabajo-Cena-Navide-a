@@ -6,7 +6,6 @@ def validacion():
         return n
     except ValueError:
         print("Debe ingresar valores numericos y enteros")
-    return n
 def addlist():
     global i
     n = validacion()
